@@ -18,22 +18,22 @@ Layout
       header
         h2 What I Do
       p
-        | I am a Senior Software Engineer at
+        | I am a Senior Web Developer at
         |
         a(
-          href="https://seatzapp.com",
+          href="https://pentair.com",
           target="_blank",
           rel="noopener noreferrer"
-        ) sEATz
+        ) Pentair
         | .
       p
-        | Our software is used to support the business which is concerned
-        | with making it easier and more convenient to order concession-stand
-        | food and souvenirs without leaving the comfort of your seat. Why
-        | should taking your kids to a sporting event make it difficult to
-        | order food, drinks, and alcohol but also enjoy every minute of the
-        | game. With sEATz it doesn't have to be, because we will deliver it
-        | all to you!
+        ul
+          li Unified the user experience by refactoring several features to utilize a few highly re-usable Angular components.
+          li Enhanced the user experience by using mobile-first HTML/CSS development techniques
+          li Squashed bugs in Angular, Sass, and Typescript
+          li Elevated our app's performance so that its usage remained smooth even while handling thousands of sales leads.
+          li Improved the application's IP Camera streaming technology to eliminate our application's reliance on Adobe Flash which would lose major browser support entirely at the end of 2020
+          li Worked remotely and managed own work schedule
     ClientOnly
       a.button.style2.down.anchored(href="#two", v-smooth-scroll) Next
   // Two
