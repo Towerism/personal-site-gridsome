@@ -71,8 +71,7 @@ Layout
       header#say-hello
         h2 Say Hello.
         p
-          | We, as humans, are stronger when we put our minds together; so
-          | let's connect!
+          | Let's connect! Send me a message using the form below.
 
       .box
         contact-me
