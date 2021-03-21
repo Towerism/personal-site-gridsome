@@ -1,6 +1,7 @@
 ---
 title: sEATz
 start: "2019-07"
+end: "2020-09"
 thumb: "/images/seatzapp-customer-operations-composite.jpg"
 moreInfo:
   link: https://seatzapp.com

@@ -1,7 +1,6 @@
 ---
 title: Pentair Pool Builder
 start: "2020-09"
-end: "2021-04"
 thumb: "/images/pentair-pool-builder.jpg"
 moreInfo:
   link: https://www.pentair.com/poolbuilder
