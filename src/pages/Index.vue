@@ -6,9 +6,9 @@ Layout
       header
         h2 Web Developer.
       ul.tags
-        li Learner
-        li Full-stack
-        li Front-end focused
+        li Vue.js
+        li Front End Engineer
+        li Lifelong Learner
       footer
         ClientOnly
           a.button.style2.down(href="#one", v-smooth-scroll) More
