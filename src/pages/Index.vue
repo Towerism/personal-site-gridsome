@@ -18,22 +18,18 @@ Layout
       header
         h2 What I Do
       p
-        | I am a Senior Web Developer at
+        | I am a Senior Front End Engineer at
         |
         a(
-          href="https://pentair.com",
+          href="https://joyent.com",
           target="_blank",
           rel="noopener noreferrer"
-        ) Pentair
+        ) Joyent (A subsidiary of Samsung)
         | .
       p
-        ul
-          li Unified the user experience by refactoring several features to utilize a few highly re-usable Angular components.
-          li Enhanced the user experience by using mobile-first HTML/CSS development techniques
-          li Squashed bugs in Angular, Sass, and Typescript
-          li Elevated our app's performance so that its usage remained smooth even while handling thousands of sales leads.
-          li Improved the application's IP Camera streaming technology to eliminate our application's reliance on Adobe Flash which would lose major browser support entirely at the end of 2020
-          li Worked remotely and managed own work schedule
+        | In April, I will begin my position at Joyent as Senior Front End
+        | Engineer. I will be joining Joyent's Compute department utilizing
+        | Vue.js, Nuxt, and Vuex to enhance Samsung's internal cloud.
     ClientOnly
       a.button.style2.down.anchored(href="#two", v-smooth-scroll) Next
   // Two
