@@ -4,10 +4,10 @@ Layout
   section#intro.main.style1.dark.fullscreen(v-in-viewport)
     .content
       header
-        h2 Web Developer.
+        h2 Front End Engineer.
       ul.tags
         li Vue.js
-        li Front End Engineer
+        li Tinkerer
         li Lifelong Learner
       footer
         ClientOnly
