@@ -38,16 +38,18 @@ Layout
       header
         h2 Who I Am
       p
-        | Martin Fracker is an experienced and highly adaptable frontend engineer
-        | eager to push the boundaries of his knowledge of software development
-        | technologies and methods. He has demonstrated competency in several
-        | front-end technologies and is particularly well-versed in Vue.js. He
-        | has a solid background in Computer Science, having graduated with a
-        | B.S. from Texas A&M University; and with 5+ years experience in IT
-        | consulting and software engineering, he has a strong track record of
-        | delivering quality software efficiently. When he isn't poring over
-        | well-written documentation Martin can be found exercising, playing with
-        | his 3 cats, or spending time with his wife.
+        | I am an experienced and highly adaptable front end engineer eager to
+        | push the boundaries of my knowledge of software development
+        | technologies and methods. I've demonstrated competency in several front
+        | end technologies and I'm particularly well-versed in Vue.js.
+      p
+        | I have a
+        | solid background in Computer Science, having graduated with a B.S. from
+        | Texas A&M University; and with 5+ years experience in IT consulting and
+        | software engineering, I have a strong track record of delivering
+        | quality software efficiently. When I'm not poring over well-written
+        | documentation you can find me exercising, playing with my 3 cats, or
+        | spending time with my wife.
     ClientOnly
       a.button.style2.down.anchored(href="#work", v-smooth-scroll) Next
   // Work
