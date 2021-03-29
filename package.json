@@ -2,7 +2,7 @@
   "name": "personal-site-gridsome",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
+    "build": "yarn test && gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "test": "jest"
