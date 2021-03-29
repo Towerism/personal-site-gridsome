@@ -1,5 +1,5 @@
 import moment from "../../../node_modules/moment/moment";
-import { yearsDifferenceRoundUp } from "../yearsDifferenceRoundUp";
+import { yearsDifferenceRoundUp } from "../yearsExperience";
 
 describe("yearsDifferenceRoundUp", () => {
   let start;
