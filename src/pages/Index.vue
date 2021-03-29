@@ -26,10 +26,11 @@ Layout
           rel="noopener noreferrer"
         ) Joyent (A subsidiary of Samsung)
         | .
-      p
-        | In April, I will begin my position at Joyent as Senior Front End
-        | Engineer. I will be joining Joyent's Compute department utilizing
-        | Vue.js, Nuxt, and Vuex to enhance Samsung's internal cloud.
+      ul
+        li Compute Client team
+        li Vue.js and Javascript expert
+        li Utilizing Vue.js, Nuxt, and Vuex to enhance Samsung's internal cloud
+        li Remote
     ClientOnly
       a.button.style2.down.anchored(href="#two", v-smooth-scroll) Next
   // Two
