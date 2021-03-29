@@ -58,9 +58,8 @@ Layout
       header
         h2 My Work
         p
-          | My ability to learn new things and get up to speed quickly is
-          | demonstrated by the diversity of technologies used in the various
-          | projects I have been a part of.
+          | I've gained experience developing in several different front end frameworks.
+          | My expertise and preference is with Vue.js.
       // Gallery
       projects
   // Contact
