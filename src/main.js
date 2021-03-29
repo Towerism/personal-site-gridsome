@@ -13,6 +13,7 @@ import ExternalLink from "~/directives/external-link";
 import "font-awesome/css/font-awesome.css";
 import "~/assets/sass/main.scss";
 import "../node_modules/prism-themes/themes/prism-vs.css";
+import { yearsExperience } from "./helpers/yearsExperience";
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -30,6 +31,13 @@ export default function(Vue, { router, head, isClient }) {
 
   Vue.directive("in-viewport", inViewportDirective);
   Vue.directive("external-link", ExternalLink);
+  Vue.mixin({
+    computed: {
+      yearsExperience() {
+        return yearsExperience();
+      }
+    }
+  });
 
   Vue.component("Layout", DefaultLayout);
   Vue.filter("date", input => {

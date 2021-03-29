@@ -8,7 +8,7 @@ Layout
       ul.tags
         li Vue.js
         li Tinkerer
-        li Lifelong Learner
+        li {{yearsExperience}} years of experience
       footer
         ClientOnly
           a.button.style2.down(href="#one", v-smooth-scroll) More
@@ -45,7 +45,7 @@ Layout
       p
         | I have a
         | solid background in Computer Science, having graduated with a B.S. from
-        | Texas A&M University; and with 5+ years experience in IT consulting and
+        | Texas A&M University; and with {{yearsExperience}}+ years experience in IT consulting and
         | software engineering, I have a strong track record of delivering
         | quality software efficiently. When I'm not poring over well-written
         | documentation you can find me exercising, playing with my 3 cats, or
