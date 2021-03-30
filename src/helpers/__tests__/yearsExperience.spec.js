@@ -17,80 +17,36 @@ describe("yearsDifferenceRoundUp", () => {
     });
   });
 
-  describe("when start and end are different dates but within the same month", () => {
+  describe("when start and end are the same month and day, but are 7 years apart", () => {
+    beforeEach(() => {
+      start = moment("2013-05-02");
+      end = moment("2020-05-02");
+    });
+    it("should return 7", () => {
+      result = yearsDifferenceRoundUp(start, end);
+      expect(result).toEqual(7);
+    });
+  });
+
+  describe("when start and end are 3 months apart, but are also more than 4 years apart", () => {
     beforeEach(() => {
       start = moment("2020-05-02");
-      end = moment("2020-05-25");
+      end = moment("2025-02-02");
     });
-    it("should return 0", () => {
+    it("should return 5", () => {
       result = yearsDifferenceRoundUp(start, end);
-      expect(result).toEqual(0);
+      expect(result).toEqual(5);
     });
   });
 
-  describe("when start and end are 1 year minus 1 day apart, but are in the same month", () => {
+  describe("when start and end are 3 months minus a day apart, but are also more than 4 years apart", () => {
     beforeEach(() => {
       start = moment("2020-05-02");
-      end = moment("2021-05-01");
+      end = moment("2025-02-01");
     });
-    it("should return 1", () => {
+    it("should return 4", () => {
       result = yearsDifferenceRoundUp(start, end);
-      expect(result).toEqual(1);
-    });
-  });
-
-  describe("when start and end are exactly 1 year apart", () => {
-    beforeEach(() => {
-      start = moment("2020-05-02");
-      end = moment("2021-05-02");
-    });
-    it("should return 1", () => {
-      result = yearsDifferenceRoundUp(start, end);
-      expect(result).toEqual(1);
-    });
-  });
-
-  describe("when start and end are exactly 2 years minus 1 day apart, but are in the same month", () => {
-    beforeEach(() => {
-      start = moment("2020-05-02");
-      end = moment("2022-05-01");
-    });
-    it("should return 2", () => {
-      result = yearsDifferenceRoundUp(start, end);
-      expect(result).toEqual(2);
-    });
-  });
-
-  describe("when start and end are exactly 2 years apart", () => {
-    beforeEach(() => {
-      start = moment("2020-05-02");
-      end = moment("2022-05-02");
-    });
-    it("should return 2", () => {
-      result = yearsDifferenceRoundUp(start, end);
-      expect(result).toEqual(2);
-    });
-  });
-
-  describe("when start and end are exactly 2 years minus 1 day apart, but are not in the same month", () => {
-    beforeEach(() => {
-      start = moment("2020-05-01");
-      end = moment("2022-04-30");
-    });
-    it("should return 1", () => {
-      result = yearsDifferenceRoundUp(start, end);
-      expect(result).toEqual(1);
-    });
-  });
-
-  describe("when start and end are more than 3 years but less than 4 years apart", () => {
-    beforeEach(() => {
-      start = moment("2020-05-01");
-      end = moment("2023-07-30");
-    });
-    it("should return 3", () => {
-      result = yearsDifferenceRoundUp(start, end);
-      expect(result).toEqual(3);
+      expect(result).toEqual(4);
     });
   });
 });
