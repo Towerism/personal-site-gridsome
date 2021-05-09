@@ -29,7 +29,7 @@ Layout
       ul
         li Compute Client team
         li Vue.js and Javascript expert
-        li Utilizing Vue.js, Nuxt, and Vuex to enhance Samsung's internal cloud
+        li Utilizing Vue.js, Nuxt, Vuetify, and Vuex to enhance Samsung's new cloud offering
         li Remote
     ClientOnly
       a.button.style2.down.anchored(href="#two", v-smooth-scroll) Next
